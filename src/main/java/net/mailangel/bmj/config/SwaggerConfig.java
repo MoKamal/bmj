@@ -23,10 +23,10 @@ public class SwaggerConfig {
 
     private Info getApiInfo(String appVersion) {
         return new Info()
-                .title("BMJ.")
+                .title("BMJ Java Programming challenge")
                 .description("BMJ API Documentation")
                 .license(new License().name("Apache 2.0").url("http://springdoc.org") )
-                .contact(new Contact().name("Mohammed Hussein").email("Mo@MailAngel.net").url("https://payzool.net"))
+                .contact(new Contact().name("Mo").email("Mo@MailAngel.net").url("https://payzool.net"))
                 .version( appVersion );
     }
 

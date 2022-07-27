@@ -10,7 +10,7 @@ The application should expose two endpoints, which should function as follows:
 - Endpoint 2:  
   An endpoint that accepts a text search term and returns all the records that contain said search term, additionally it should return the sum of the hours from those records.
 
-- Data:   
+### Data:   
  "5.00,Introduction to mechanical ventilation",  
   "3.5,Introduction to coronavirus disease 2019 (COVID-19)",  
   "2.00,Clinical pointers: COVID-19 in primary care",  
@@ -35,10 +35,17 @@ OR
 
 ## API documentation (OpenAPI 3.0/Swagger)
 -- open:    
-http://localhost:8080/swagger-ui.html   
+http://localhost:8080/  
+OR  
+ http://localhost:8080/swagger-ui.html   
 in your browser.
+![img.png](img.png)
+## Unit Tests
+- Unit tests for the Rest Controller, can be found under the test folder, which covers all the endpoints!,  
 
-Any Question, please feel free to reach me at:  
+## Questions/Issues
+
+Any Question or issues, please feel free to reach me at:    
 Mo@mailAngel.net
 
 
