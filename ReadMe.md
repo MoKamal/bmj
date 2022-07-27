@@ -35,6 +35,8 @@ OR
 
 ## API documentation (OpenAPI 3.0/Swagger)
 -- open:    
+http://localhost:8080/  
+OR  
 http://localhost:8080/swagger-ui.html   
 in your browser.
 
